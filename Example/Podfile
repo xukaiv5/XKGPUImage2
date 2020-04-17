@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XKGPUImage2_Example' do
+  pod 'XKGPUImage2', :path => '../'
+
+  target 'XKGPUImage2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
